@@ -14,6 +14,7 @@
 		7867A68721017B9A00D98FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7867A68521017B9A00D98FE6 /* LaunchScreen.storyboard */; };
 		7867A69221017B9A00D98FE6 /* UITableViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7867A69121017B9A00D98FE6 /* UITableViewTestTests.swift */; };
 		7867A69D21017B9A00D98FE6 /* UITableViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7867A69C21017B9A00D98FE6 /* UITableViewTestUITests.swift */; };
+		7867A6AB21017D6D00D98FE6 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7867A6AA21017D6D00D98FE6 /* Hero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7867A69821017B9A00D98FE6 /* UITableViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7867A69C21017B9A00D98FE6 /* UITableViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewTestUITests.swift; sourceTree = "<group>"; };
 		7867A69E21017B9A00D98FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7867A6AA21017D6D00D98FE6 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				7867A67C21017B9A00D98FE6 /* AppDelegate.swift */,
 				7867A67E21017B9A00D98FE6 /* ViewController.swift */,
+				7867A6AA21017D6D00D98FE6 /* Hero.swift */,
 				7867A68021017B9A00D98FE6 /* Main.storyboard */,
 				7867A68321017B9A00D98FE6 /* Assets.xcassets */,
 				7867A68521017B9A00D98FE6 /* LaunchScreen.storyboard */,
@@ -193,7 +196,7 @@
 				TargetAttributes = {
 					7867A67821017B9A00D98FE6 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					7867A68C21017B9A00D98FE6 = {
 						CreatedOnToolsVersion = 9.2;
@@ -261,6 +264,7 @@
 			files = (
 				7867A67F21017B9A00D98FE6 /* ViewController.swift in Sources */,
 				7867A67D21017B9A00D98FE6 /* AppDelegate.swift in Sources */,
+				7867A6AB21017D6D00D98FE6 /* Hero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,11 +430,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = UITableViewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.twtstudio.UITableViewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,11 +446,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = UITableViewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.twtstudio.UITableViewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
